@@ -1,5 +1,7 @@
 # Airflow
 
+Build pipelines and workflows with Apache Airflow.
+
 ## Deployment
 
 Deploy services running the following command `$ docker-compose up -d`
@@ -82,7 +84,7 @@ Use branching to add conditional logic tou your DAGs.
 from airflow.operators.python_operator import BranchPythonOperator
 ~~~
 
-## Troublesshooting
+## Troubleshooting
 
 - Check if scheduler is running. Fix by running `airflow scheduler`
 
@@ -118,3 +120,9 @@ Examples:
     - @weekly == 0 0 * * 0
     - None == do not schedule ever, used for manually triggered DAGs
     - @once == schedule only once
+
+## References
+
+[Apache Airflow](https://airflow.apache.org/)
+
+[Apache Airflow Documentation](https://airflow.apache.org/docs/apache-airflow/stable/index.html)
