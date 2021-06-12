@@ -126,3 +126,5 @@ Examples:
 [Apache Airflow](https://airflow.apache.org/)
 
 [Apache Airflow Documentation](https://airflow.apache.org/docs/apache-airflow/stable/index.html)
+
+[Airflow & RabbitMQ](https://corecompete.com/scaling-out-airflow-with-celery-and-rabbitmq-to-orchestrate-etl-jobs-on-the-cloud/)
